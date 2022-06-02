@@ -13,6 +13,7 @@
     
 
     
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -24,13 +25,18 @@
         -moz-user-select: none;
         user-select: none;
       }
-
+      .navbar {background-color: #fff0!important;}
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+        
       }
+      @media (max-width: 767px) {
 
+        
+        .navbar {background-color: #d90087!important;}
+      }
       .b-example-divider {
         height: 3rem;
         background-color: rgba(0, 0, 0, .1);
@@ -77,7 +83,7 @@
     
 <header>
  
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" style="background-color: #fff0!important;"> 
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" > 
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
               <img src="image/Logo/TopLogo2.png" alt="">
@@ -106,10 +112,7 @@
                 <a class="nav-link" href="ÜberUns.html" title="About US">Über uns</a>
              </li>
             </ul>
-            <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
+
             <ul class="nav">
               <li class="nav-item"><a href="Einloggen.html" title="Sign IN" class="nav-link link-dark px-2"  style="color: #fff!important;font-size: 11px;"><i class="fas fa-sign-in-alt fa-lg fa-fw"></i> Einloggen</a></li>
             </ul>
